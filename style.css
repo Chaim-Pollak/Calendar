@@ -1,21 +1,49 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   direction: rtl;
   text-align: center;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 20px;
 }
 
 .calendar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .day {
-  border: 1px solid #ccc;
-  padding: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  font-weight: bold;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
+.day:hover {
+  background-color: #f0f4ff;
+  color: #0044cc;
+}
+
 .today {
-  background-color: yellow;
+  background-color: #ffeb3b;
+  color: #333;
+  font-weight: bold;
+  border: 2px solid #ffc107;
 }
