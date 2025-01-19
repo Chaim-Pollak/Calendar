@@ -27,7 +27,3 @@ This project is a simple calendar web application that allows users to navigate 
 
 1. Clone the repository to your local machine.
 2. Open the project folder and double-click the `index.html` file to launch the application in your default browser.
-
-## License
-
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
